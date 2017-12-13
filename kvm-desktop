@@ -1,0 +1,17 @@
+Source: task-kvm-desktop
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: kvm-desktop
+Version: 1.0
+Maintainer: Dylan Scott Grafmyre
+Depends: virt-manager,
+ libvirt-bin,
+ qemu-system-x86,
+ qemu-utils,
+ gir1.2-spice-client-gtk-3.0,
+
+Architecture: all
+Copyright: LICENSE
+Description: A meta package to use kvm virt-manager on the desktop.
